@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Superhéroes</string>
+    <string name="heroe1">Nick el Nocturno y el Diurno</string>
+    <string name="descripcion1">El héroe del Jetpack</string>
+    <string name="heroe2">Protectora de la Realidad</string>
+    <string name="descripcion2">Entiende la verdad absoluta</string>
+    <string name="heroe3">André el Gigante</string>
+    <string name="descripcion3">Imita la luz y la noche para fundirse</string>
+    <string name="heroe4">Benjamín el Valiente</string>
+    <string name="descripcion4">Domina el poder del canario para desarrollarse valientemente</string>
+    <string name="heroe5">Maru la Magnífica</string>
+    <string name="descripcion5">Se desliza sin esfuerzo para salvar el día</string>
+    <string name="heroe6">Yasmin la Dinámica</string>
+    <string name="descripcion6">Capacidad de cambiar a cualquier forma y energizarse</string>
+</resources>
