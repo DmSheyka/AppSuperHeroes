@@ -40,7 +40,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.dbelzu.edu.superheroes.modelo.Heroe
-import com.dbelzu.edu.superheroes.modelo.RepositorioHeroes
+import com.dbelzu.edu.superheroes.modelo.DatosHeroes
 import com.dbelzu.edu.superheroes.ui.theme.SuperheroesTheme
 
 @OptIn(ExperimentalAnimationApi::class)
@@ -147,7 +147,7 @@ fun VistaPreviaListaDeSuperhéroes() {
         Surface (
             color = MaterialTheme.colorScheme.background
         ) {
-            ListaSuperHeroes(heroes = RepositorioHeroes.heroes)
+            ListaSuperHeroes(heroes = DatosHeroes.heroes)
         }
     }
 }

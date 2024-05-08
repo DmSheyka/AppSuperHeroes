@@ -2,7 +2,7 @@ package com.dbelzu.edu.superheroes.modelo
 
 import com.dbelzu.edu.superheroes.R
 
-object RepositorioHeroes{
+object DatosHeroes{
     val heroes = listOf(
         Heroe(
             recursoNombre = R.string.heroe1,

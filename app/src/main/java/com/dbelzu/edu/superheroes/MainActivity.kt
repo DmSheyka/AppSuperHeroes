@@ -15,7 +15,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.dbelzu.edu.superheroes.modelo.RepositorioHeroes
+import com.dbelzu.edu.superheroes.modelo.DatosHeroes
 import com.dbelzu.edu.superheroes.ui.theme.SuperheroesTheme
 
 class MainActivity : ComponentActivity(){
@@ -24,6 +24,7 @@ class MainActivity : ComponentActivity(){
         enableEdgeToEdge()
         setContent {
             SuperheroesTheme {
+                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -41,7 +42,7 @@ class MainActivity : ComponentActivity(){
                 BarraSuperiorApp()
             }
         ) {
-            val heroes = RepositorioHeroes.heroes
+            val heroes = DatosHeroes.heroes
             ListaSuperHeroes(heroes = heroes, contentPadding = it)
         }
     }
